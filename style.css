@@ -1,8 +1,108 @@
-.header {
-  padding: 100px;
-  text-align: center;
-  background: #223b4d;
+body{
+  background: rgb(71, 70, 114);
   color: white;
-  font-size: 30px;
+  font-family: Helvetica neue, Helvitica, Arial;
+  margin: 0;
+  padding:0;
   
 }
+header{
+  background-color: rgb(72, 73, 91);
+    padding: 100px;
+    
+}
+    
+  
+ 
+section{
+  Background-color: rgb(255, 246, 246);
+  color: grey;
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.middle-section{
+  background-color: rgb(72, 73, 91);
+padding: 100px;
+margin: block;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+}
+
+
+ div{
+
+  background-color: rgb(72, 73, 91);
+padding: 60px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+ }
+
+
+ 
+
+
+footer{
+  background-color: rgb(172, 172, 189);
+  padding: 100px;
+  
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+  
+ li{
+  display: inline-block;
+  margin-right: 20px;
+  }
+  
+  button{
+    background-color: rgb(76, 188, 240);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+  .button {border-radius: 12px;}
+
+  img{
+    max-width: 100%;
+  }
+
+  * {
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+}
+
+.middle-section {
+  display: flex;
+}
+
+  
+
+
+
+
+
+
